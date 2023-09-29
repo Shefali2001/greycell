@@ -1,0 +1,26 @@
+
+      <h3>details of student</h3>
+              
+      
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>email</th>
+            <th>contact</th>
+            <th>age</th>
+          </tr>
+        </thead>
+  
+      {% for ct in result %}
+            <tr>
+              <td>{{ct.id}}</td>
+              <td>{{ct.name}}</td>
+              <td>{{ct.email}}</td>
+              <td>{{ct.contact}}</td>
+              <td>{{ct.age}}</td>
+            </tr>
+      {% endfor %}  
+            
+    </div>
